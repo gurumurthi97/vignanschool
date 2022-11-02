@@ -1,0 +1,19 @@
+.btn {
+  background-color: var(--blue);
+  font-weight: 600;
+  width: fit-content;
+  border-radius: 3rem;
+  padding: 0.75rem 2rem;
+  min-width: 9rem;
+  text-align: center;
+}
+.btn p {
+  color: var(--white);
+  font-weight: 600;
+  margin: 0;
+}
+.btn:hover {
+  box-shadow: 4px 4px 15px rgba(58, 128, 233, 0.5);
+  transition: all 0.3s;
+  cursor: pointer;
+}

@@ -4,9 +4,11 @@ import Home from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Gallery from "./pages/Gallery";
+import AnimCursor from "./pages/AnimCursor";
 function App() {
   return (
     <div>
+      <AnimCursor />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

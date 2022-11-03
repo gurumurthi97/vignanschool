@@ -10,7 +10,6 @@
 }
 .out-btn p {
   font-weight: 600;
-  cursor: pointer;
 }
 .out-btn:hover {
   box-shadow: 4px 4px 15px rgba(58, 128, 233, 0.5);
